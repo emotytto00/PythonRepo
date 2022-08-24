@@ -1,0 +1,7 @@
+x_str, y_str, z_str = input('Syötä kolme kokonaislukua ').split()
+x = float(x_str)
+y = float(y_str)
+z = float(z_str)
+print(f'Lukujen summa: {x + y +z}')
+print(f'Lukujen tulo: {x * y * z}')
+print(f'Lukujen keskiarvo: {(x + y + z)/3}')
