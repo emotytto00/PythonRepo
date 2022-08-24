@@ -9,5 +9,6 @@ import math
 #kilojoulet = 4.184 * kalorit
 
 #print(f'Se on {kaloritMJ*4.184:.0f} kilojoulea.')
-säde = input('Mikä on ympyrän säde?')
+säde_str = input('Mikä on ympyrän säde?')
+säde = float(säde_str)
 print(f'Pinta-ala on {float(math.pi*math.pi)/säde} ')
