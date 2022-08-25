@@ -2,15 +2,13 @@ leiviskä = float(input('Anna leiviskät'))
 naula = float(input('Anna naulat'))
 luoti = float(input('Anna luodit'))
 
-luotiM = float(13.3 * luoti)
-naulaM = float(32 * luoti)
-leiviskäM = float(20 * naula)
-massa = (luotiM + naulaM + leiviskäM)
+luotiM = 13.3
+naulaM = (luotiM)*32
+leiviskäM = (luotiM)*20*32
+massa = ((luoti + luotiM) * (naulaM + naula) * (leiviskäM + leiviskä))
 
-if(massa < 1000 ):
-    print(f'{massa:0.4f} g')
-
-
-print(f'Massa nykymitoissa: {massa:0.0f} kg {massa:0.4f}')
+kilot = int(massa/1000)
+grammat = (massa/1000 - (int(massa/1000)))*1000
+print(f'Massa nykymitoissa: {kilot} kg {grammat} g')
 
 
