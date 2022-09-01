@@ -1,6 +1,6 @@
 import random
 toistot = 1
-arvoitus = random.randint(1,10)
+arvoitus = random.randint(1, 10)
 
 
 while toistot == 1:

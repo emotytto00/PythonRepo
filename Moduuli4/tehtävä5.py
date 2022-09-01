@@ -1,4 +1,4 @@
-toistot = 0
+toistot = 1
 käyttäjä = 'python'
 salasana = 'rules'
 
