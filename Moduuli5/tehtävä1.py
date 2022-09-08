@@ -1,5 +1,9 @@
+import random
+
 lkm = int(input('Anna noppien lukumäärä: '))
 summa = 0
-lisda = []
 for luku in range(lkm):
-    print(luku)
+    heitto = random.randint(1,6)
+    print(f'Heitosta tuli {heitto}!')
+    summa = summa + heitto
+print(f'Summa oli huikeat {summa}')
