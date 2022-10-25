@@ -1,10 +1,10 @@
 class Auto:
-    def __init__(self, rekkari, huippunopeus, nopeus, matka):
+    def __init__(self, rekkari, huippunopeus):
         self.rekkari = rekkari
         self.huippunopeus = huippunopeus
-        self.nopeus = nopeus
-        self.matka = matka
+        self.nopeus = 0
+        self.matka = 0
 
 
-auto = Auto("UKG-542", "142 km/h", 0, 0)
-print (f"{auto.rekkari:s} on rekkari ja huippunopeus {auto.huippunopeus:s}" )
+auto = Auto("ABC-123", "142 km/h")
+print(f"{auto.rekkari}, {auto.huippunopeus:}, {auto.nopeus}, {auto.matka}")
