@@ -37,5 +37,5 @@ class Hissi():
             self.tämä_kerros -= 1
         print(f'Olet saapunut {self.tämä_kerros} kerrokseen!')
 
-h = Hissi(0,9)
+h = Hissi()
 h.siirry_kerrokseen(5)
